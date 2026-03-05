@@ -31,6 +31,14 @@ https://travel.agileway.net/
 - 建立 Test Cycle
 - Bug Report
 
+本次練習僅針對「航班預訂流程」進行簡單測試，包括：
+
+1. 選擇航班
+2. 填寫乘客資料
+3. 信用卡付款
+
+未包含登入功能與其他模組。
+
 ---
 
 ### 2 Trello 測試場景練習
