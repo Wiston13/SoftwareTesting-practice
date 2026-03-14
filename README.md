@@ -1,71 +1,87 @@
-# QA 測試練習紀錄
+# 軟體測試練習紀錄
 
-本 repository 為個人練習 QA 測試流程所建立的簡單測試練習。
+此 repository 為個人在學習軟體測試過程中所做的一些基礎練習與紀錄，內容包含測試場景設計、測試案例撰寫、缺陷回報，以及簡單的 API 與效能測試練習。
+
+主要目的是熟悉基本的軟體測試流程與常見工具。
+
+---
+
+## 使用工具
+
+- Jira  
+- Zephyr  
+- Trello  
+- Google Sheets / Excel  
+- Postman  
+- Apache JMeter  
+
+---
+
+## 練習內容
+
+### 手動測試練習
+
+練習設計簡單的測試場景與測試案例，包含：
+
+- Facebook 註冊與登入功能
+- Udemy 搜尋功能
+
+內容包含：
+
+- Valid、Invalid Scenarios
+- 基本 Test Case 撰寫
+- 測試步驟與預期結果整理
+
+---
+
+### Trello 測試場景整理
+
+使用 Trello 練習整理測試情境與測試想法，例如：
+
+- Facebook Login / Sign Up
+- Udemy Search
+- ToDoList
+- Foodpanda 功能流程
+
+主要用來練習拆解功能並整理測試場景。
+
+---
+
+### Bug Report 練習
+
+練習撰寫簡單的缺陷回報，並使用 Jira 與 Trello 紀錄測試中發現的問題。
 
 練習內容包含：
 
-- 測試場景設計（Test Scenario）
-- 測試案例撰寫（Test Case）
-- 缺陷回報（Bug Report）
-- 測試工具操作
+- 問題摘要（Summary）
+- 重現步驟（Steps to reproduce）
+- 預期結果（Expected result）
+- 實際結果（Actual result）
 
-使用工具：
-
-- Jira
-- Zephyr
-- Trello
-- Google Sheets
+主要用來熟悉基本的缺陷回報流程與問題追蹤方式。
 
 ---
 
-# 練習專案
+### API Testing（Postman）
 
-## 1. 航班預訂網站測試
+使用 Trello API 進行簡單的 API 測試練習，包含：
 
-測試網站  
-https://travel.agileway.net/
-
-練習內容：
-
-- 撰寫 Test Case
-- 使用 Zephyr 建立 Test Cycle
-- 建立簡單 Bug Report
-
-本次練習僅針對 **航班預訂流程** 進行簡單測試，包括：
-
-1. 選擇航班
-2. 填寫乘客資料
-3. 信用卡付款
-
-未包含登入功能與其他模組。
+- 基本 CRUD 操作
+- 使用 Environment Variables
+- 撰寫簡單的 Pre-request Script
+- 撰寫 Test Script 驗證回應
+- 使用 Collection Runner 執行測試
 
 ---
 
-## 2. Trello 測試場景練習
+### Performance Testing（JMeter）
 
-使用 Trello 練習建立測試場景（Test Scenario）。
-
-練習內容：
-
-- Facebook 登入功能測試場景（有效 / 無效）
-- Facebook 註冊功能測試場景（有效 / 無效）
-- Udemy 搜尋功能測試場景
-  - 分類搜尋
-  - 課程搜尋
-  - 教師搜尋
+使用 Apache JMeter 嘗試進行簡單的效能測試練習，  
+模擬多個 request 並觀察 Summary Report 的結果。
 
 ---
 
-## 3. Google Sheets 測試案例練習
+## 說明
 
-使用 Google Sheets 撰寫簡單 Test Case。
-
-練習內容：
-
-- 將 Trello 中建立的測試場景轉換為 Test Case
-- 撰寫基本測試步驟（step-by-step）
-
----
-
-此 repository 主要作為 QA 測試流程的學習與練習紀錄，
-內容以熟悉基本測試概念與工具操作為主。
+本 repository 主要為個人練習紀錄，用於熟悉軟體測試基本流程與測試思維。
+內容仍屬於基礎學習階段，未來有機會也會持續補充更多測試相關練習。
